@@ -1,0 +1,17 @@
+technique,rank,mean,median
+Steady Inactive - Steady Inactive,1,5.03,0.01
+Early Active - Steady Inactive,2,3.98,0.28
+Steady Active - Steady Inactive,3,2.8,0.06
+Steady Active - Early Inactive,4,2.78,0.09
+Early Active - Steady Active,5,2.28,1.19
+Early Active - Early Active,6,2.11,0.63
+Steady Inactive - Early Inactive,7,1.73,0.35
+Early Active - Early Inactive,8,1.29,0.05
+Steady Inactive - Early Active,9,0.9,0.0
+Early Inactive - Steady Active,10,0.86,0.55
+Early Inactive - Steady Inactive,11,0.85,0.51
+Steady Active - Steady Active,12,0.58,0.44
+Steady Active - Early Active,13,0.42,0.0
+Steady Inactive - Steady Active,14,-0.11,0.03
+Early Inactive - Early Inactive,14,-0.71,0.0
+Early Inactive - Early Active,14,-0.81,0.53

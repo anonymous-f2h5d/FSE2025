@@ -1,0 +1,79 @@
+Designite documentation: https://www.designite-tools.com/docs/features.html,
+,
+Architecture Smells,
+Cyclic dependency,Components are dependent on each other in a cycle.
+God component,A component with too many responsibilities.
+Ambiguous interface,An unclear or confusing interface.
+Feature concentration,Many features in a single component.
+Unstable dependency,Dependency on frequently changing components.
+Scattered functionality,Functionality spread across multiple locations.
+Dense structure,A highly interconnected component structure.
+,
+Design Smells,
+Imperative abstraction,An abstraction using too many control structures.
+Multifaceted abstraction,An abstraction with multiple responsibilities.
+Unnecessary abstraction,An abstraction that is not needed.
+Unutilized abstraction,An abstraction that is not used.
+Feature envy,A class that excessively uses methods from another class.
+Deficient encapsulation,Inadequate protection of internal data.
+Unexploited encapsulation,Encapsulation that is not fully utilized.
+Broken modularization,Incorrectly structured modules.
+Cyclically-dependent modularization,Modules dependent on each other in a cycle.
+Hub-like modularization,Overly central modules connected to many others.
+Insufficient modularization,Too few or underdeveloped modules.
+Broken hierarchy,A hierarchy that is poorly structured.
+Cyclic hierarchy,A hierarchy with circular dependencies.
+Deep hierarchy,A hierarchy with too many levels.
+Missing hierarchy,An incomplete hierarchy.
+Multipath hierarchy,A hierarchy with multiple paths to the same node.
+Rebellious hierarchy,Subclasses that override too many of their parent’s methods.
+Wide hierarchy,A hierarchy with too many direct children.
+,
+Testability Smells,
+Hard-wired dependency,Dependencies that cannot be easily replaced.
+Global state,Use of global variables or state.
+Excessive dependency,Too many dependencies between components.
+Law of Demeter violation,Excessive knowledge of other components' internal structures.
+,
+Implementation Smells,
+Abstract function call from constructor,Calling abstract methods in a constructor.
+Complex conditional,Conditionals with too many branches or complexity.
+Complex method,A method that is too complex.
+Empty catch clause,A catch block with no code.
+Long identifier,Identifiers that are excessively long.
+Long method,A method that is too long.
+Long parameter list,A method with too many parameters.
+Long statement,A statement that is too long.
+Magic number,A numeric constant used directly in code.
+Missing default,A switch statement without a default case.
+,
+Test Smells,
+Assertion roulette,Multiple assertions without clear indication of failure.
+Missing assertion,Tests without assertions.
+Empty test,A test with no code.
+Ignored test,A test that is ignored.
+Constructor initialization,Initializing state in the constructor for tests.
+Eager test,Tests that test multiple methods at once.
+Exceptional handling,Poor handling of exceptions in tests.
+Conditional test logic,Conditional statements in tests.
+,
+Understand documentation: https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-,
+,
+Complexity Metrics,
+AvgCyclomatic,Average cyclomatic complexity of methods or functions.
+Cyclomatic,The number of linearly independent paths through a program's source code.
+MaxCyclomatic,The maximum cyclomatic complexity within a project or file.
+SumCyclomatic,The total sum of cyclomatic complexities across all functions or methods.
+MaxNesting,The maximum depth of nested control structures.
+,
+Coupling Metrics,
+CountClassBase,The number of base classes inherited by a class.
+CountClassCoupled,The number of other classes a class is coupled to.
+CountClassCoupledModified,The modified count of class coupling including external factors.
+CountClassDerived,The number of derived classes that inherit from a base class.
+CountInput,The number of input interactions a module has with other modules.
+CountOutput,The number of output interactions a module has with other modules.
+,
+Cohesion Metrics,
+PercentLackOfCohesion,The percentage of methods that do not share instance variables.
+PercentLackOfCohesionModified,A modified measure of the percentage of methods that do not share instance variables.
